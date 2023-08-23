@@ -24,7 +24,7 @@ function App() {
   }
 
   if (!isEmpty(music)) {
-    console.log("music:", music);
+    console.log("music.feed.entry:", music.feed.entry);
   }
 
   return (
